@@ -1,0 +1,67 @@
+* {
+	font-family: 'Nunito', sans-serif;
+	/*text-align: center;*/
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+hr {
+	width: 400px;
+}
+
+p {
+	color: white;
+	font-size: 30px;
+	/*border: 1px solid red;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.item-input {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+.added-items {
+	width: 200px;
+	text-align: left;
+	display: block;
+	margin: 0 auto;
+}
+
+ul {
+	padding-left: 0px;
+	list-style-type: none;
+}
+
+.fa-trash-o {
+	color: red;
+	font-size: 20px;
+}
+
+.fa-check-square-o {
+	color: white;
+	font-size: 20px;
+}
+
+#input-box {
+	width: 100px;
+  	transition: width .35s ease-in-out;
+	-webkit-transition: width .35s ease-in-out;
+}
+
+#input-box:hover {
+	width: 250px;
+}
+
+.space-right {
+	margin-right: 10px;
+}
+
+.space-left {
+	margin-left: 10px;
+}
