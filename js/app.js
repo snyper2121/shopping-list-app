@@ -20,13 +20,12 @@ $( document ).ready(function() {
 	});
 
 	$('.list-items').on('click', '.fa-check-square-o', function(events) {
-		// console.log('click')
-		 $(this).closest('li').css('text-decoration', 'line-through');
+		if ($(this).closest('li').css('text-decoration') == 'line-through') {
+			$(this).closest('li').css('text-decoration', 'none');
+		} else {
+			$(this).closest('li').css('text-decoration', 'line-through');
+		}
 	});
-
-	$('.list-items').on('click', '.fa-check-square-o', function(events) {
-		if($('.fa-check-square-o')).is()
-
     // <li class="item"><p>milk</p></li>
     // <i class="fa fa-trash-o" aria-hidden="true"></i>
 
